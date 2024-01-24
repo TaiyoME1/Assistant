@@ -24,7 +24,7 @@ def get_openai_response(text,prompt):
   
     client = OpenAI(
 
-    api_key= os.getenv("api_key")
+    api_key= os.getenv("APIKEY")
  
     ) 
 
